@@ -5,8 +5,11 @@
 @import './basics';
 @import './utilities';
 
-@supports (display: flex) {
-  @import './grid';
-}
+  // @import './grid';
 
 @import './modules';
+
+
+.wrapper {
+  max-width: 900px;
+}
