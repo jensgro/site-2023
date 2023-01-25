@@ -13,12 +13,12 @@
 </head>
 
 <body id="top">
-
-
+  <div class="wrapper">
+  {% include "./partials/navigation.njk" %}
   {% include "./partials/site-header.njk" %}
   <main class="main-container">
   {% if intro1 %}
-    {% include "./partials/intro.njk" %}
+    {# {% include "./partials/intro.njk" %} #}
   {% endif %}
     <!-- begin: content -->
     {{ content | safe }}
@@ -27,5 +27,6 @@
   <footer class="site-footer">
     {% include "./partials/footer.njk" %}
   </footer>
+  </div>
 </body>
 </html>

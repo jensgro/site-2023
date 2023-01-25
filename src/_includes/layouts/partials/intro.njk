@@ -2,9 +2,7 @@
   <div class="intro__textcnt">
     <h2 class="intro__headline">{{ title }}</h2>
     {% if introimage %}
-    <img
-      srcset="./images/portrait/300/{{ introimage }} 1w, ./images/portrait/450/{{ introimage }} 600w, ./images/portrait/600/{{ introimage }} 900w"
-      src="./images/portrait/600/{{ introimage }}" alt="Portrait von Jens Grochtdreis" class="intro__image">
+
     {% endif %}
     <p>{{ intro1 | safe }}</p>
     {% if intro2 %}
