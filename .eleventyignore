@@ -1,0 +1,7 @@
+README.md
+src/_11ty/
+src/drafts/
+_preparations/
+node_modules/
+src/assets/**/*
+

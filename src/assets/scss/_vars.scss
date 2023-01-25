@@ -1,0 +1,156 @@
+@use "sass:math";
+
+// @import './color-palette-21';
+
+// color-palette
+$orange-vivid-100: #FFD0B5;
+$orange-vivid-800: #AD1D07;
+
+$cool-grey-050: #F5F7FA;
+$cool-grey-100: #E4E7EB;
+$cool-grey-300: #9AA5B1;
+$cool-grey-600: #52606D;
+$cool-grey-800: #323F4B;
+
+$indigo-050: #E0E8F9;
+$indigo-600: #4055A8;
+$indigo-800: #2D3A8C;
+
+$red-400: #D64545;
+$red-600: #A61B1B;
+
+// ==== Fonts
+$font-sans: "Fira Sans", "Lucida Grande", Geneva, Verdana, sans-serif;
+$font-sans-bold: "Fira Sans Bold", "Lucida Grande", Geneva, Verdana, sans-serif;
+// $font-sans: 				"Fira Sans", "Lucida Grande", Geneva, Verdana, sans-serif;
+$font-serif: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+$font-monospace: Consolas, "Lucida Console", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier;
+
+// ==== Spacing
+$spacer: 1rem;
+$padding: $spacer;
+$margin: $spacer;
+$line-height-base: 1.5;
+$paragraph-margin-bottom: 1rem;
+$headline-margin-bottom: div($spacer, 2);
+
+// ==== Media Queries
+$sm: 600px;
+$md: 740px;
+$lg: 900px;
+$xl: 1000px;
+
+// ==== Farben
+$white: #fafafa;
+$black: #000;
+$link-color: $orange-vivid-800;
+$box-shadow-1: 0 1px 3px hsla(0,0%, 0%, 0.2);
+$box-shadow-2: 0 3px 6px hsla(0,0%, 0%, 0.3);
+$logo-orange: #f7911f; //   $orange-vivid-400: #F9703E;
+
+// ===== Konfigurationen
+$html-bg: $cool-grey-100;
+
+$body-font: $font-sans;
+$body-bg: $white;
+$body-color: $cool-grey-800;
+$body-fontsize: 1.25rem;
+$body-fontsize-lg: 1.125rem;
+
+$headline-font: $font-sans-bold;
+$headline-color-1: $cool-grey-800;
+$headline-color-2: $orange-vivid-800;
+
+// banner
+$banner-border: 2px solid $cool-grey-600;
+
+// card
+$card-padding: $padding;
+$card-header-bg: $white;
+$card-headline-color: $headline-color-2;
+$card-body-bg: $white;
+$card-footer-bg: $orange-vivid-800; // $logo-orange
+$card-body-fontsize: 1.125rem;
+
+// cta
+$cta-padding: $padding $padding*1.75;
+$cta-bg: $orange-vivid-800;
+$cta-hover-bg: $cool-grey-600;
+$cta-link-color: $white;
+$cta-fontsize: 1.5rem;
+
+// intro
+$intro-headline-color: $headline-color-2;
+$intro-headline-fontsize: 2rem;
+$intro-headline-fontsize-md: 3rem;
+$intro-headline-margin: 0 0 $margin*2 0;
+$intro-image-margin: 0 0 div($margin, 2) $margin;
+$intro-image-border-radius: 10px;
+$intro-image-box-shadow: $box-shadow-2;
+$intro-fontsize: 1.25rem;
+
+// linklists
+$linklists-bg: #fff;
+
+// logo-wrapper
+$logo-wrapper-link-fontsize: 2.5rem;
+$logo-wrapper-link-color: $red-600;
+$logo-wrapper-small-color: $red-400;
+$logo-wrapper-small-fontsize: 1rem;
+
+// main-container
+$main-padding: $padding;
+
+// my-offer
+$color0: transparent;
+$color1: $indigo-050;
+$color2: $orange-vivid-100;
+
+// my-projects
+$my-projects-padding: $padding;
+$my-projects-bg: $white;
+$my-projects-box-shadow: none;
+$my-projects-padding: 0 $padding;
+$my-projects-margin: $margin;
+
+// navigation
+$navigation-padding: 0 0 0 $padding;
+$navigation-item-margin: 0;
+$navigation-link-fontsize: 1.5rem;
+$navigation-link-bg: $cool-grey-050;
+$navigation-link-color: $link-color; //$cool-grey-800
+$navigation-link-hover-color: $indigo-800; //$cool-grey-300
+$navigation-link-padding: $padding*0.5 $padding;
+
+// section
+$section-bg: $white;
+$section-padding: $padding;
+$section-margin: 0 0 $margin 0;
+$section-box-shadow: $box-shadow-1;
+$section-headline-fontsize: 1.75rem;
+$section-headline-color: $headline-color-2;
+$section-headline-margin: $margin;
+$section-border-top: 4px solid $headline-color-2;
+
+// site-footer
+$site-footer-padding: $padding 0;
+$site-footer-list-padding: 0 $padding*1.5;
+$site-footer-bg: $orange-vivid-800; // $cool-grey-100
+$site-footer-list-item-color:  $white; // $orange-vivid-800
+$site-footer-link-hover-color: $white; // $cool-grey-600
+
+// site-header
+$site-header-bg: $cool-grey-800;
+$site-header-padding: $padding*3 $padding $padding $padding;
+
+// socialmedia
+$socialmedia-item-margin: $margin $margin $margin 0;
+$socialmedia-link-margin: 0 $margin*2 0 0;
+$socialmedia-icon-width: 24px;
+$socialmedia-icon-height: 24px;
+
+// taglist
+$taglist-item-bg: $orange-vivid-800;
+$taglist-item-padding: 0 $padding*1.5;
+$taglist-item-margin: 0 $margin $margin 0;
+$taglist-item-color: $white;

@@ -1,0 +1,60 @@
+{
+  "articles": [
+    {
+      "name": "Am Ende ist doch alles HTML (im Blog von Hosteurope)",
+      "url": "https://www.hosteurope.de/blog/html-und-css-am-ende-ist-doch-alles-html/"
+    },
+    {
+      "name": "Webseiten sind keine Gesamtkunstwerke (ein Interview mit mir)",
+      "url": "https://entwickler.de/online/javascript/modulare-webentwicklung-sass-579850680.html"
+    },
+    {
+      "name": "Responsive Design & Bootstrap: Wie das Grid zur guten User Experience beiträgt (ein Videointerview mit mir)",
+      "url": "https://entwickler.de/online/javascript/responsive-design-bootstrap-interview-grochtdreis-579891284.html"
+    },
+    {
+      "name": "Professioneller Stolz",
+      "url": "http://grochtdreis.de/weblog/2017/03/27/professioneller-stolz/"
+    },
+    {
+      "name": "Nicht die Realität ausblenden ",
+      "url": "http://grochtdreis.de/weblog/2017/08/01/einfach-mal-die-realitaet-ausblenden/"
+    },
+    {
+      "name": "Verkrüppeltes HTML",
+      "url": "http://grochtdreis.de/weblog/2016/08/11/verkrueppeltes-html/"
+    },
+    {
+      "name": "Semantik vs. Optik",
+      "url": "http://grochtdreis.de/weblog/2014/07/17/semantik-vs-optik/"
+    },
+    {
+      "name": "Inhalte im Design simulieren",
+      "url": "http://grochtdreis.de/weblog/2016/08/05/hilfreiche-blindtexte/"
+    },
+    {
+      "name": "Die Nutzung von Tools im Frontend",
+      "url": "http://grochtdreis.de/weblog/2016/04/07/die-nutzung-von-tools-im-frontend/"
+    },
+    {
+      "name": "Modulare Webentwicklung – Theorie und Praxis",
+      "url": "http://grochtdreis.de/weblog/2016/03/15/modulare-webentwicklung-theorie-und-praxis/"
+    },
+    {
+      "name": "Ein neues Zeitalter bricht an",
+      "url": "http://grochtdreis.de/weblog/2016/01/12/ein-neues-zeitalter-bricht-an/"
+    },
+    {
+      "name": "Lernen loszulassen und zu kommunizieren",
+      "url": "http://grochtdreis.de/weblog/2013/01/08/lernen-loszulassen-und-zu-kommunizieren/"
+    },
+    {
+      "name": "Mehr Professionalität wagen",
+      "url": "https://blog.mayflower.de/2996-Mehr-Professionalitat-wagen.html"
+    },
+    {
+      "name": "Responsive Webdesign – wir müssen uns ändern ",
+      "url": "http://grochtdreis.de/weblog/2015/09/08/responsive-webdesign-wir-muessen-uns-aendern/"
+    }
+  ]
+}

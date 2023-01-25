@@ -1,0 +1,35 @@
+{
+  "name": "11ty-starter",
+  "version": "1.1.0",
+  "description": "Minimal starter-kit for 11ty.",
+  "scripts": {
+    "build": "npm-run-all eleventy:default css",
+    "clean": "rimraf _site",
+    "css": "sass src/assets/scss/:_site/css/",
+    "debug": "DEBUG=* eleventy",
+    "dev": "npm-run-all clean build --parallel watch serve",
+    "eleventy:default": "npx eleventy",
+    "eleventy:watch": "npx eleventy --watch",
+    "serve": "eleventy --serve",
+    "watch": "eleventy --watch"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Jens Grochtdreis",
+    "email": "jens@grochtdreis.de",
+    "url": "https://grochtdreis.de"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "bootstrap": "^5.2.3",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.6",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^4.1.2",
+    "sass": "^1.57.1"
+  }
+}

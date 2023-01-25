@@ -1,0 +1,16 @@
+{
+  "title": "My Title",
+  "url": "https://example.com",
+  "description": "My description",
+  "lang": "de",
+  "feed": {
+    "subtitle": "My Title",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://example.com"
+  },
+  "author": {
+    "name": "Jens Grochtdreis",
+    "email": "jens@grochtdreis.de"
+  }
+}

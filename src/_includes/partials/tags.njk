@@ -1,0 +1,15 @@
+{% if tags %}
+<div class="container no-print">
+  <h2>Tag(s)</h2>
+  <ul>
+    {%- for tag in tags -%}
+    {% set tagUrl %}/{{ tag }}/{% endset %}
+    <li>
+      <a href="{{ tagUrl | url }}">
+        {{ tag }}
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>
+{% endif %}

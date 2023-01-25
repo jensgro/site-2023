@@ -1,0 +1,11 @@
+@media (min-width: $lg) {
+  .topic-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+    .section {
+      margin-bottom: 0;
+    }
+  }
+}

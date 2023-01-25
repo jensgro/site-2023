@@ -1,0 +1,8 @@
+<h3 class="section__headline">Ausgewählte Vorträge</h3>
+<ul class="linklist">
+  {% for item in selectedTalks.talks %}
+  <li>
+    <a href="{{ item.url }}">{{ item.name }}</a>
+  </li>
+  {% endfor %}
+</ul>

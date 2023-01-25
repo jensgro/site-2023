@@ -1,0 +1,56 @@
+.card {
+  box-shadow: $box-shadow-1;
+  margin-bottom: $margin;
+
+  @supports (display: flex) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__header {
+    padding: $card-padding;
+    background: $card-header-bg;
+  }
+
+  &__headline {
+    margin: 0;
+    color: $card-headline-color;
+  }
+
+  &__body {
+    padding: $card-padding;
+    margin: 2px 0;
+    background-color: $card-body-bg;
+    font-size: $card-body-fontsize;
+    flex: 1;
+  }
+
+  &__footer {
+    padding: $card-padding;
+    background-color: $card-footer-bg;
+    font-weight: bold;
+    color: $white;
+
+    a {
+      color: inherit;
+    }
+  }
+
+  &--my-projects {
+    box-shadow: none;
+    padding-bottom: $padding*2;
+    border-bottom: 2px solid $cool-grey-100;
+    margin-bottom: $margin*2;
+
+    &:last-of-type {
+      border-bottom: none;
+      padding-bottom: 0;
+      // margin-bottom: 0;
+    }
+
+    .card__footer {
+      padding-top: 0;
+      background: none;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.section {
+  background-color: $section-bg;
+  padding: $section-padding;
+  margin: $section-margin;
+
+  &__headline {
+    color: $section-headline-color;
+    font-family: $headline-font;
+    font-size: $section-headline-fontsize;
+    margin-bottom: $section-headline-margin;
+
+    &:target {
+      color: $indigo-600;
+    }
+
+    &:target:before {
+      content: ">";
+      display: inline-block;
+      margin-right: div($margin, 3);
+      color: inherit;
+    }
+  }
+}

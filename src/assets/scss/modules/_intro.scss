@@ -1,0 +1,67 @@
+.intro {
+  overflow: hidden;
+
+  @media (min-width: $lg) {
+    font-size: $intro-fontsize;
+  }
+
+  &__headline {
+    color: $intro-headline-color;
+    font-size: $intro-headline-fontsize;
+    font-family: $headline-font;
+    line-height: 1.25;
+    margin: $intro-headline-margin;
+
+    @media (min-width: $md) {
+      font-size: $intro-headline-fontsize-md;
+    }
+  }
+
+  &__image {
+    border-radius: $intro-image-border-radius;
+    box-shadow: $intro-image-box-shadow;
+    display: block;
+    margin-bottom: $margin;
+
+    @media (min-width: $md) {
+      float: right;
+      max-width: 460px;
+      margin: $intro-image-margin;
+    }
+
+    @media (min-width: $lg) {
+      max-width: 600px;
+    }
+  }
+}
+
+// @media (min-width: $xl) {
+//   .intro {
+//     &__textcnt {
+//       float: left;
+//       width: 50%;
+//       padding-right: $padding;
+//     }
+
+//     &__imagecnt {
+//       float: right;
+//       width: 50%;
+//       max-width: 700px;
+//       padding-left: $padding;
+//     }
+//   }
+
+//   @supports (display: grid) {
+//     .intro {
+//       display: grid;
+//       grid-template-columns: 1fr 1fr;
+//       grid-gap: 20px;
+
+//       &__imagecnt,
+//       &__textcnt {
+//         width: auto;
+//         padding: 0;
+//       }
+//     }
+//   }
+// }

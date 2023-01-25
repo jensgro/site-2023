@@ -1,0 +1,14 @@
+<section class="my-projects section">
+  <h2 class="section__headline">Meine Projekte</h2>
+  <ol class="my-projects__list no-list">
+  {% for item in index.projects %}
+    <li class="my-projects__list-item">
+      <div class="card">
+        <div class="card__header"><h3 class="card__headline">{{ item.name }}</h3></div>
+        <div class="card__body"> {{ item.text }} </div>
+        <div class="card__footer"> <a href="{{ item.link.linkUrl}}">{{ item.link.linkText }}</a> </div>
+      </div>
+    </li>
+  {% endfor %}
+  </ol>
+</section>

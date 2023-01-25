@@ -1,0 +1,11 @@
+<section class="section">
+  <h3 class="section__headline">Ich woanders im Web</h3>
+  <ul class="socialmedia no-list">
+    {% for item in siteData.socialmedia %}
+    <li class="socialmedia__item">
+      <div class="socialmedia__icon">{{ item.svg | safe }}</div>
+      <a class="socialmedia__link" href="{{ item.url }}">{{ item.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

@@ -1,0 +1,22 @@
+.no-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: $lg) {
+  .split {
+    display: flex;
+
+    div {
+      width: 50%;
+
+      &:first-of-type {
+        padding-right: $padding;
+      }
+      &:last-of-type {
+        padding-left: $padding;
+      }
+    }
+  }
+}

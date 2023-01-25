@@ -1,0 +1,22 @@
+.logo-wrapper {
+  display: flex;
+  margin-left: $margin;
+
+  h1 {
+    line-height: 1;
+  }
+
+  a {
+    font-size: $logo-wrapper-link-fontsize;
+    display: block;
+    color: $logo-wrapper-link-color;
+  }
+  small {
+    color: $logo-wrapper-small-color;
+    font-size: $logo-wrapper-small-fontsize;
+  }
+
+  .logo {
+    margin-left: auto;
+  }
+}

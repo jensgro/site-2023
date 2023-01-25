@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ siteData.description }}">
+  <meta name="author" content="{{ siteData.author }}">
+  <title>{% if title and page.url != '/' %}{{ title }} - {% endif %}{{ siteData.siteTitle }}</title>
+
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body id="top">
+
+
+  {% include "./partials/site-header.njk" %}
+  <main class="main-container">
+  {% if intro1 %}
+    {% include "./partials/intro.njk" %}
+  {% endif %}
+    <!-- begin: content -->
+    {{ content | safe }}
+    <!-- end: content -->
+  </main>
+  <footer class="site-footer">
+    {% include "./partials/footer.njk" %}
+  </footer>
+</body>
+</html>

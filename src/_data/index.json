@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "name": "F-LOG-GE",
+      "text": "Ich bin in erster Linie Frontendentwickler. Dementsprechend geht es auch in meinem Blog hauptsächlich um dieses Thema, schließt aber auch Ausflüge in naheliegende Gebiete wie Usability oder Barrierefreiheit mit ein. Hin und wieder kommen aber auch andere Leidenschaften zur Sprache. Es ist somit ein sehr persönliches Blog mit klarem Fokus auf Frontendentwicklung.",
+      "link": {
+        "linkText": "Weiter zu meinem Blog",
+        "linkUrl": "https://grochtdreis.de/weblog"
+      }
+    },
+    {
+      "name": "Modulare Webentwicklung",
+      "text": "Ich habe meine Gedanken und Erfahrungen rund um die CSS-Architektur von Projekten in einem E-Book konzentriert. Es kann als PDF zu einem selbstbestimmten Preis erworben werden. Eine Onlineversion steht zudem kostenlos zur Verfügung.",
+      "link": {
+        "linkText": "Weiter zur Seite über mein E-Book-Projekt",
+        "linkUrl": "http://modulare-webentwicklung.de"
+      }
+    },
+    {
+      "name": "Frontend Development Resources",
+      "text": "In meinen zahlreichen Schulungen, Vorträgen und meinen Kursen an der Mainzer Uni empfehle ich immer wieder zahlreiche grundlegende Links. Diese habe ich in einem Github-Projekt zusammengefasst. Ich aktualisiere diese Liste immer wieder.",
+      "link": {
+        "linkText": "Zur Linkliste",
+        "linkUrl": "http://jensgro.github.io/Frontenddevelopment-Resources/"
+      }
+    },
+    {
+      "name": "Webkrauts",
+      "text": "Auf meine Initiative haben sich im August 2005 viele deutschsprachige Webworker unter dem Namen »Webkrauts« zusammengetan. Mittlerweile ist die Gruppe hierzulande mit knapp einhundert Mitgliedern die größte und bekannteste ihrer Art. Wir geben unser Wissen um qualitativ hochwertige Webentwicklung, guten Code, moderne Konzepte und Grafiken, ansprechende Texte und gelungene Kundenkommunikation an Kollegen und interessierte Laien weiter. Wir schreiben Artikel, halten Vorträge und geben Schulungen – für mehr Qualität im Web. ",
+      "link": {
+        "linkText": "Weiter zu den Webkrauts",
+        "linkUrl": "http://webkrauts.de"
+      }
+    }
+  ]
+}

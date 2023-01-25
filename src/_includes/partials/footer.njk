@@ -1,0 +1,20 @@
+<div class="container no-print">
+
+  {% if templateClass != "tmpl-home" %}
+  <footer class="sitefooter">
+  {% else %}
+  <footer class="sitefooter sitefooter--home">
+  {% endif %}
+    <ul class="sitefooter__list">
+      {% if templateClass != "tmpl-home" %}
+      <li class="getback__link"><a href="{{ '/' | url }}">back to homepage</a></li>
+      {% endif %}
+      <li><a href="/imprint.html">Imprint</a></li>
+      <li><a href="/colophon.html">Colophon</a></li>
+    </ul>
+  </footer>
+</div>
+
+<div class="container only-print">
+  printed from page: {{metadata.url}}{{ page.url | url }}
+</div>

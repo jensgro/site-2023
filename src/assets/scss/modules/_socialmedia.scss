@@ -1,0 +1,35 @@
+
+.socialmedia {
+  position: absolute;
+  right: 0;
+  bottom: -$margin*2;
+
+  @media (min-width: $md) {
+    bottom: 0;
+    padding: $padding 0 $padding $padding;
+    background-color: rgba(255,255,255,0.6);
+
+  }
+
+
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+
+  &__icon {
+    width: $socialmedia-icon-width;
+    height: $socialmedia-icon-height;
+
+    &:hover, &:focus {
+      opacity: 0.5;
+    }
+  }
+
+  &__link {
+    display: block;
+    margin: $socialmedia-link-margin;
+  }
+}

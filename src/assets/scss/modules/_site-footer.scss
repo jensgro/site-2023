@@ -1,0 +1,29 @@
+.site-footer {
+  padding: $site-footer-padding;
+  background-color: $site-footer-bg;
+  margin-top: $margin;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: $site-footer-list-padding;
+    margin-bottom: 0;
+  }
+
+  &__list-item {
+    color: $site-footer-list-item-color;
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: underline;
+
+    &:hover, &:focus {
+      color: $site-footer-link-hover-color;
+      text-decoration: none;
+    }
+  }
+}

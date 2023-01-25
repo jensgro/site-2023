@@ -1,0 +1,30 @@
+.linklists {
+  padding: $padding;
+  background-color: $linklists-bg;
+
+  @media (min-width: $sm){
+    display: flex;
+  }
+
+  &__container {
+    padding: 0 $padding;
+    flex: 1 1 40%;
+  }
+}
+
+.linklist {
+  padding-left: $padding;
+  margin-left: 0;
+
+  li {
+    margin-bottom: div($margin, 4);
+  }
+
+  @media (min-width: $lg) {
+    // NOTE: mehrspaltig - bislang nur auf der Vortragsseite
+    .column-list & {
+      column-count: 2;
+      column-gap: 1em;
+    }
+  }
+}

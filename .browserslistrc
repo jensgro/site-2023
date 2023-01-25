@@ -1,0 +1,6 @@
+# Browsers that we support
+
+defaults
+not ie 11
+not ie <= 11
+not ios_saf <= 14.8

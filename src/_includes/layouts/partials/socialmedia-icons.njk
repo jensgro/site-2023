@@ -1,0 +1,11 @@
+<div class="socialmedia">
+  <ul class="no-list socialmedia__list">
+    {% for item in siteData.socialmedia %}
+    <li class="socialmedia__item">
+      <a
+      {% if item.name == "Mastodon" %} rel="me" {% endif %}
+      class="socialmedia__link socialmedia__icon" href="{{ item.url }}">{{ item.svg | safe }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

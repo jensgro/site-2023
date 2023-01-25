@@ -1,0 +1,16 @@
+.cta {
+  margin: $padding*2 0;
+  text-align: right;
+
+  a {
+    padding: $cta-padding;
+    background-color: $cta-bg;
+    color: $cta-link-color;
+    font-size: $cta-fontsize;
+
+    &:hover, &:focus {
+      background-color: $cta-hover-bg;
+      text-decoration: none;
+    }
+  }
+}

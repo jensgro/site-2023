@@ -1,0 +1,21 @@
+.taglist {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    background-color: $taglist-item-bg;
+    padding: $taglist-item-padding;
+    margin: $taglist-item-margin;
+    color: $taglist-item-color;
+    font-size: 1.5rem;
+
+    &:last-of-type {
+      margin-right: 0
+    }
+  }
+}

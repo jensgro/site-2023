@@ -1,0 +1,25 @@
+
+{
+  "primary": [
+    {
+      "label": "Startseite",
+      "url": "/"
+    },
+    {
+      "label": "Vorträge",
+      "url": "/vortraege.html"
+    },
+    {
+      "label": "Mein Blog",
+      "url": "https://grochtdreis.de/weblog"
+    },
+    {
+      "label": "Modulare Webentwicklung",
+      "url": "http://modulare-webentwicklung.de/"
+    },
+    {
+      "label": "Mein Koch-Blog",
+      "url": "https://jens.cooking/"
+    }
+  ]
+}

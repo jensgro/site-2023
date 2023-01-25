@@ -1,0 +1,23 @@
+<header class="site-header" role="banner">
+  <div class="site-header__inner">
+    <h1 class="site-header__name">
+      <a href="index.html">Jens Grochtdreis</a>
+      <small>Senior-Frontendentwickler</small>
+    </h1>
+    <img
+      srcset="images/header/liana-mikah-unsplash-small.jpg 1w, images/header/liana-mikah-unsplash.jpg 900w"
+      sizes="(max-width: 899px) 1px, (min-width: 900px) 900px"
+      src="images/header/liana-mikah-unsplash.jpg" class="flexible" alt="">
+
+    <img
+      srcset="images/jg-logo-80x40.png 1w, images/jg-logo-150x76.png 900w"
+      sizes="(max-width: 899px) 1px, (min-width: 900px) 900px"
+      src="images/jg-logo-150x76.png" class="small-logo" alt="Logo von Jens Grochtdreis">
+
+    {% include "./socialmedia-icons.njk" %}
+  </div>
+
+  {# <img src="images/header/liana-mikah-unsplash.jpg" alt=""> #}
+  {# {% include "./partials/logowrapper.njk" %} #}
+  {% include "./navigation.njk" %}
+</header>

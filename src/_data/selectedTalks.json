@@ -1,0 +1,40 @@
+{
+  "talks": [
+    {
+      "name": "Pattern Libraries im Zentrum von Entwicklung und Design",
+      "url": "https://speakerdeck.com/flocke/pattern-libraries-im-zentrum-von-entwicklung-und-design"
+    },
+    {
+      "name": "Modulare Webentwicklung",
+      "url": "https://speakerdeck.com/flocke/modulare-webentwicklung-2"
+    },
+    {
+      "name": "Modulare Webentwicklung mit Sass",
+      "url": "https://speakerdeck.com/flocke/modulare-webentwicklung-mit-sass"
+    },
+    {
+      "name": "Responsive Webdesign – wir müssen uns ändern ",
+      "url": "http://grochtdreis.de/weblog/2015/09/08/responsive-webdesign-wir-muessen-uns-aendern/"
+    },
+    {
+      "name": "Responsive Webdesign für Nichtentwickler",
+      "url": "https://speakerdeck.com/flocke/responsive-webdesign-fur-nichtentwickler"
+    },
+    {
+      "name": "Am Ende ist doch alles HTML",
+      "url": "https://speakerdeck.com/flocke/am-ende-ist-doch-alles-html-1"
+    },
+    {
+      "name": "Neuer Workflow für ein modernes Web",
+      "url": "https://speakerdeck.com/flocke/neuer-workflow-fur-ein-modernes-web"
+    },
+    {
+      "name": "Neue Kleider, alter Ärger",
+      "url": "https://speakerdeck.com/flocke/neue-kleider-alter-arger"
+    },
+    {
+      "name": "Die Zukunft muss noch warten",
+      "url": "https://speakerdeck.com/flocke/die-zukunft-muss-noch-warten"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+
+
+.my-offer {
+  background-color: $color0;
+}
+
+.card--my-offer {
+  box-shadow: none;
+
+  &, .card__body, .card__header, .card__footer {
+    background: $white;
+    padding: div($padding, 2);
+  }
+
+  .card__footer {
+    color: $link-color;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: $lg) {
+  @supports (display: grid) {
+    .card--my-offer {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas:
+        "cardheader cardbody"
+        "cardheader cardbody"
+        "cardheader cardfooter";
+    }
+
+    .card__header {
+      grid-area: cardheader;
+    }
+    .card__body {
+      grid-area: cardbody;
+    }
+    .card__footer {
+      grid-area: cardfooter;
+      font-size: 1.25rem;
+    }
+  }
+}
