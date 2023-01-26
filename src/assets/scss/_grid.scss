@@ -6,13 +6,19 @@
   grid-template-areas:
     "nav"
     "header"
-    "intro";
+    "intro"
+    "hint"
+    "articles"
+    "talks";
 
   @media (min-width: $md) {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "nav nav"
-      "header intro";
+      "header intro"
+      "hint hint"
+      "articles articles"
+      "talks talks";
   }
 }
 
@@ -26,3 +32,14 @@ nav {
   grid-area: intro;
 }
 
+.section-articles {
+  grid-area: articles;
+}
+
+.section-talks {
+  grid-area: talks;
+}
+
+.hint {
+  grid-area: hint;
+}

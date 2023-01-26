@@ -21,3 +21,12 @@
     }
   }
 }
+
+.section-wide {
+    margin-top: $margin * 2;
+    margin-inline: $margin;
+
+    @media (min-width: $xl) {
+      margin-inline: 0;
+    }
+}
