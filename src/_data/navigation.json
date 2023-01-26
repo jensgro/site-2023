@@ -6,8 +6,8 @@
       "url": "/"
     },
     {
-      "label": "Vorträge",
-      "url": "/vortraege.html"
+      "label": "Mein Koch-Blog",
+      "url": "https://jens.cooking/"
     },
     {
       "label": "Mein Blog",
@@ -16,10 +16,6 @@
     {
       "label": "Modulare Webentwicklung",
       "url": "http://modulare-webentwicklung.de/"
-    },
-    {
-      "label": "Mein Koch-Blog",
-      "url": "https://jens.cooking/"
     }
   ]
 }
