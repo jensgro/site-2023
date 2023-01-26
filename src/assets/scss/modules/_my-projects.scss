@@ -1,29 +1,13 @@
 .my-projects {
-  padding: $my-projects-padding;
-  background-color: $my-projects-bg;
-  box-shadow: $my-projects-box-shadow;
+  .card {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 
-  &__list-item {
-    height: 100%;
-  }
-}
-
-@media (min-width: $lg) {
-  @supports (display: grid){
-    .my-projects__list {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 20px;
-
-      .card {
-        display: flex;
-        flex-direction: column;
-        min-height: 100%;
-
-        &__body {
-          flex: 1;
-        }
-      }
+    &__body {
+      flex: 1;
     }
   }
+
 }
+
