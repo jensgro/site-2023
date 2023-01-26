@@ -16,17 +16,15 @@
   <div class="wrapper">
   {% include "./partials/navigation.njk" %}
   {% include "./partials/site-header.njk" %}
-  <main class="main-container">
-  {% if intro1 %}
-    {# {% include "./partials/intro.njk" %} #}
-  {% endif %}
-    <!-- begin: content -->
+  {# <main class="main-container"> #}
+  {% include "./partials/intro.njk" %}
+      <!-- begin: content -->
     {{ content | safe }}
     <!-- end: content -->
-  </main>
-  <footer class="site-footer">
-    {% include "./partials/footer.njk" %}
-  </footer>
+  {# </main> #}
+  {# <footer class="site-footer"> #}
+    {# {% include "./partials/footer.njk" %} #}
+  {# </footer> #}
   </div>
 </body>
 </html>
