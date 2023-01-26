@@ -1,5 +1,3 @@
-@use "sass:math";
-
 // @import './color-palette-21';
 
 // color-palette
@@ -32,7 +30,7 @@ $padding: $spacer;
 $margin: $spacer;
 $line-height-base: 1.5;
 $paragraph-margin-bottom: 1rem;
-$headline-margin-bottom: div($spacer, 2);
+$headline-margin-bottom: $spacer * 0.5;
 
 // ==== Media Queries
 $sm: 600px;
@@ -73,7 +71,7 @@ $card-footer-bg: $orange-vivid-800; // $logo-orange
 $card-body-fontsize: 1.125rem;
 
 // cta
-$cta-padding: $padding $padding*1.75;
+$cta-padding: $padding ($padding * 1.75);
 $cta-bg: $orange-vivid-800;
 $cta-hover-bg: $cool-grey-600;
 $cta-link-color: $white;
@@ -83,8 +81,8 @@ $cta-fontsize: 1.5rem;
 $intro-headline-color: $headline-color-2;
 $intro-headline-fontsize: 2rem;
 $intro-headline-fontsize-md: 3rem;
-$intro-headline-margin: 0 0 $margin*2 0;
-$intro-image-margin: 0 0 div($margin, 2) $margin;
+$intro-headline-margin: 0 0 ($margin * 2) 0;
+$intro-image-margin: 0 0 ($margin * 0.5) $margin;
 $intro-image-border-radius: 10px;
 $intro-image-box-shadow: $box-shadow-2;
 $intro-fontsize: 1.25rem;
@@ -113,15 +111,6 @@ $my-projects-box-shadow: none;
 $my-projects-padding: 0 $padding;
 $my-projects-margin: $margin;
 
-// navigation
-$navigation-padding: 0 0 0 $padding;
-$navigation-item-margin: 0;
-$navigation-link-fontsize: 1.5rem;
-$navigation-link-bg: $cool-grey-050;
-$navigation-link-color: $link-color; //$cool-grey-800
-$navigation-link-hover-color: $indigo-800; //$cool-grey-300
-$navigation-link-padding: $padding*0.5 $padding;
-
 // section
 $section-bg: $white;
 $section-padding: $padding;
@@ -134,23 +123,23 @@ $section-border-top: 4px solid $headline-color-2;
 
 // site-footer
 $site-footer-padding: $padding 0;
-$site-footer-list-padding: 0 $padding*1.5;
+$site-footer-list-padding: 0 ($padding * 1.5);
 $site-footer-bg: $orange-vivid-800; // $cool-grey-100
 $site-footer-list-item-color:  $white; // $orange-vivid-800
 $site-footer-link-hover-color: $white; // $cool-grey-600
 
 // site-header
 $site-header-bg: $cool-grey-800;
-$site-header-padding: $padding*3 $padding $padding $padding;
+$site-header-padding: ($padding * 3) $padding $padding $padding;
 
 // socialmedia
 $socialmedia-item-margin: $margin $margin $margin 0;
-$socialmedia-link-margin: 0 $margin*2 0 0;
+$socialmedia-link-margin: 0 ($margin * 2) 0 0;
 $socialmedia-icon-width: 24px;
 $socialmedia-icon-height: 24px;
 
 // taglist
 $taglist-item-bg: $orange-vivid-800;
-$taglist-item-padding: 0 $padding*1.5;
+$taglist-item-padding: 0 ($padding * 1.5);
 $taglist-item-margin: 0 $margin $margin 0;
 $taglist-item-color: $white;
