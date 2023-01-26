@@ -1,23 +1,13 @@
 
 .socialmedia {
-  position: absolute;
-  right: 0;
-  bottom: -$margin*2;
-
-  @media (min-width: $md) {
-    bottom: 0;
-    padding: $padding 0 $padding $padding;
-    background-color: rgba(255,255,255,0.6);
-
-  }
-
+  // damit es immer unten ist
+  margin-bottom: 12px;
 
   &__list {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
   }
-
 
   &__icon {
     width: $socialmedia-icon-width;

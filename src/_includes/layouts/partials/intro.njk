@@ -1,19 +1,6 @@
 <section class="intro section">
   <div class="intro__textcnt">
     <h2 class="intro__headline">{{ title }}</h2>
-    {% if introimage %}
-
-    {% endif %}
-    <p>{{ intro1 | safe }}</p>
-    {% if intro2 %}
-    <p>{{ intro2 | safe }}</p>
-    {% endif %}
-    {% if intro3 %}
-    <p>{{ intro3 | safe }}</p>
-    {% endif %}
-    {% if intro4 %}
-    <p>{{ intro4 | safe }}</p>
-    {% endif %}
+    <p>{{ intro | safe }}</p>
   </div>
-
 </section>

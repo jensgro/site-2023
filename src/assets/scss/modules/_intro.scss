@@ -1,20 +1,13 @@
 .intro {
   overflow: hidden;
-
-  @media (min-width: $lg) {
-    font-size: $intro-fontsize;
-  }
+  font-size: 1.25rem;
 
   &__headline {
-    color: $intro-headline-color;
-    font-size: $intro-headline-fontsize;
+    color: $orange-vivid-800;
+    font-size: 1.75rem;
     font-family: $headline-font;
     line-height: 1.25;
-    margin: $intro-headline-margin;
-
-    @media (min-width: $md) {
-      font-size: $intro-headline-fontsize-md;
-    }
+    margin: 0 0 ($margin * 2) 0;
   }
 
   &__image {
