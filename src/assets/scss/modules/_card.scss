@@ -22,14 +22,17 @@
     flex: 1;
   }
 
-  &__footer {
-    padding: $card-padding;
-    background-color: $card-footer-bg;
+  &__link {
     font-weight: bold;
     color: $white;
+    display: block;
+    padding: $card-padding;
+    background-color: $card-footer-bg;
 
-    a {
-      color: inherit;
+    &:hover, &:focus {
+      color: $white;
+      background-color: $card-footer-bg;
+      text-decoration: none;
     }
   }
 

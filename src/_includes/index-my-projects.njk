@@ -6,7 +6,7 @@
       <div class="card">
         <div class="card__header"><h3 class="card__headline">{{ item.name }}</h3></div>
         <div class="card__body"> {{ item.text }} </div>
-        <div class="card__footer"> <a href="{{ item.link.linkUrl}}">{{ item.link.linkText }}</a> </div>
+        <div class="card__footer"> <a class="card__link" href="{{ item.link.linkUrl}}">{{ item.link.linkText }}</a> </div>
       </div>
     </li>
   {% endfor %}
