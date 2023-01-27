@@ -1,6 +1,8 @@
 <section class="intro section">
   <div class="intro__textcnt">
     <h2 class="intro__headline">{{ title }}</h2>
+    {% if intro %}
     <p>{{ intro | safe }}</p>
+    {% endif %}
   </div>
 </section>

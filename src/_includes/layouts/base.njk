@@ -16,10 +16,8 @@
   <div class="wrapper">
   {% include "./partials/navigation.njk" %}
   <main class="main-container">
-    {% if indexpage %}
-      {% include "./partials/site-header.njk" %}
-      {% include "./partials/intro.njk" %}
-    {% endif %}
+    {% include "./partials/site-header.njk" %}
+    {% include "./partials/intro.njk" %}
       <!-- begin: content -->
     {{ content | safe }}
     <!-- end: content -->
