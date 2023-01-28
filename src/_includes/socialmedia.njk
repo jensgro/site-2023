@@ -4,7 +4,7 @@
     {% for item in siteData.socialmedia %}
     <li class="socialmedia__item">
       <div class="socialmedia__icon">{{ item.svg | safe }}</div>
-      <a class="socialmedia__link" href="{{ item.url }}">{{ item.name }}</a>
+      <a class="socialmedia__link" title="Mein Account bei {{ item.name }}" aria-label="Mein Account bei {{ item.name }}" href="{{ item.url }}">{{ item.name }}</a>
     </li>
     {% endfor %}
   </ul>

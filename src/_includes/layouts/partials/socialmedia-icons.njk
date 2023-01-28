@@ -4,7 +4,10 @@
     <li class="socialmedia__item">
       <a
       {% if item.name == "Mastodon" %} rel="me" {% endif %}
-      class="socialmedia__link socialmedia__icon" href="{{ item.url }}">{{ item.svg | safe }}</a>
+      class="socialmedia__link socialmedia__icon"
+       title="Mein Account bei {{ item.name }}"
+       aria-label="Mein Account bei {{ item.name }}"
+       href="{{ item.url }}">{{ item.svg | safe }}</a>
     </li>
     {% endfor %}
   </ul>
