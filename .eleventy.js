@@ -28,7 +28,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({"./src/assets/img": "/images"});
   eleventyConfig.addPassthroughCopy("css");
-  // eleventyConfig.addPassthroughCopy({"./src/assets/scss/fonts": "css/fonts"});
+  eleventyConfig.addPassthroughCopy({"./src/assets/fonts": "/fonts"});
   eleventyConfig.addPassthroughCopy({"./src/static/":"/"});
 
   /* Markdown Overrides */

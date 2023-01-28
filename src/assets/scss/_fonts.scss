@@ -1,36 +1,16 @@
-// ------- Mozilla Fira Sans
-// @font-face{
-//   font-family: 'Fira Sans';
-//   src: local('Fira Sans Medium'),
-//        url('../fonts/fira/woff/FiraSans-Medium.woff') format('woff');
-//   font-weight: 500;
-//   font-style: normal;
-// }
-
-// Open Sans
-// @font-face{
-//   font-family: 'opensans';
-//   src: local('OpenSans'),
-//        url('../fonts/opensans/OpenSans-Semibold-webfont.woff') format('woff');
-//   font-weight: 500;
-//   font-style: normal;
-// }
-
 // Neuer Versuch von Fira Sans
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Fira Sans Regular'), local('FiraSans-Regular'),
-       url('../fonts/fira-sans-v9-latin/fira-sans-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/fira-sans-v9-latin/fira-sans-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Fira Sans Regular'),
+       url('../fonts/fira/FiraSans-Regular.woff2') format('woff2');
 }
 /* fira-sans-800 - latin */
 @font-face {
   font-family: 'Fira Sans Bold';
   font-style: normal;
   font-weight: 800;
-  src: local('Fira Sans ExtraBold'), local('FiraSans-ExtraBold'),
-       url('../fonts/fira-sans-v9-latin/fira-sans-v9-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/fira-sans-v9-latin/fira-sans-v9-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'),
+       url('../fonts/fira/FiraSans-Bold.woff2') format('woff2');
 }
